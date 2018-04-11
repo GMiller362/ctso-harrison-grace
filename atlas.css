@@ -7,6 +7,39 @@ img#logo {
   height: 10em;
 }
 
-header {
-  background-color: rgb(0, 145, 26);
+ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
+}
+
+body p {
+  margin: 0 10em 30px 10em;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
 }

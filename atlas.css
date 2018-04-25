@@ -3,9 +3,22 @@
 */
 
 img#logo {
-  width: 20em;
-  height: 10em;
+  display: block;
+  margin: auto;
+  width: 17%;
+  height: 17%;
 }
+
+img#seaweed {
+  display: block;
+  margin: auto;
+  width: 83.5em;
+  height: 40em;
+}
+
+/*header {
+  background-color: #ccffd9;
+}*/
 
 ul {
   list-style-type: none;

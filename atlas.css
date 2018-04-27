@@ -1,12 +1,20 @@
+@font-face {
+  font-family: 'Roboto Mono', monospace;
+}
+
 /*
 
 */
 
+/*===============
+Image styles
+===============*/
+
 img#logo {
   display: block;
-  margin: auto;
-  width: 17%;
-  height: 17%;
+  float: left;
+  width: 15%;
+  height: 15%;
 }
 
 img#seaweed {
@@ -16,43 +24,75 @@ img#seaweed {
   height: 40em;
 }
 
-/*header {
-  background-color: #ccffd9;
-}*/
+/*===============
+List styles
+===============*/
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: green;
 }
 
 li {
-  float: left;
+  color: #00cc00;
 }
 
 li a {
+  font-size: 20px;
   display: block;
-  color: white;
+  float: right;
+  color: #00cc00;
   text-align: center;
-  padding: 14px 16px;
+  padding: 30px 10px;
   text-decoration: none;
 }
 
+li a#tryme {
+  margin-right: 10em;
+}
+
+/*===============
+Nav styles
+===============*/
 nav a:hover:not(.active) {
-  background-color: #111;
+  border-bottom: 2px solid #0033cc;
+}
+
+nav li:hover(.active) {
+
 }
 
 .active {
 background-color:#4CAF50;
 }
 
-body p {
-  margin: 0 10em 30px 10em;
-  font-size: 20px;
+/*===============
+Body styles
+===============*/
+
+body {
+  font-size: 15px;
+  font-family: 'Roboto Mono', monospace;
+
 }
 
+body p {
+  margin: 0 10em 30px 10em;
+}
+
+/*===============
+Div styles
+===============*/
+
+div {
+  float: left;
+}
+
+/*===============
+Footer styles
+===============*/
 footer {
   text-align: center;
 }

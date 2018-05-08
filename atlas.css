@@ -83,6 +83,18 @@ body p {
 }
 
 /*===============
+Section styles
+===============*/
+
+section {
+  display: block;
+}
+
+section.right {
+  text-align: right;
+}
+
+/*===============
 Div styles
 ===============*/
 

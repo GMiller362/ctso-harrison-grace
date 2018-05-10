@@ -58,6 +58,8 @@ Nav styles
 ===============*/
 nav a:hover:not(.active) {
   border-bottom: 2px solid #0033cc;
+  background-color: #E8E8E8;
+  border-radius: 10%;
 }
 
 nav li:hover(.active) {
@@ -66,6 +68,20 @@ nav li:hover(.active) {
 
 .active {
 background-color:#4CAF50;
+}
+
+/*===============
+Achor tag styles
+===============*/
+
+a {
+  text-decoration: none;
+  color: #00cc00;
+}
+
+a:hover {
+  color: #0033cc;
+  text-decoration: none;
 }
 
 /*===============
@@ -80,6 +96,22 @@ body {
 
 body p {
   margin: 0 10em 30px 10em;
+}
+
+/*===============
+Section styles
+===============*/
+
+section {
+  display: block;
+}
+
+section h1 {
+  text-align: center;
+}
+
+section p {
+  text-align: center;
 }
 
 /*===============

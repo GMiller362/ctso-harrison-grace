@@ -74,12 +74,12 @@ background-color:#4CAF50;
 Achor tag styles
 ===============*/
 
-a {
+div a {
   text-decoration: none;
   color: #00cc00;
 }
 
-a:hover {
+div a:hover {
   color: #0033cc;
   text-decoration: none;
 }

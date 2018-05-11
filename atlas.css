@@ -131,6 +131,25 @@ div {
   float: left;
 }
 
+#div1, #div2, #div3 {
+  position: absolute;
+  margin-top: 5em;
+}
+
+#div1 {
+  margin-left: 28em;
+}
+
+#div2 {
+  margin-left: 45em;
+}
+
+#div3 {
+  margin-top: 7.5em;
+  margin-left: 38em;
+}
+
+
 /*===============
 Footer styles
 ===============*/

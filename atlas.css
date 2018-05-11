@@ -24,6 +24,12 @@ img#seaweed {
   height: 40em;
 }
 
+img#gas {
+  display: block;
+  width: 60em;
+  height:30em;
+}
+
 /*===============
 List styles
 ===============*/

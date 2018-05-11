@@ -113,6 +113,10 @@ section p {
   text-align: center;
 }
 
+section#moveDown {
+  margin-top: 10em;
+}
+
 /*===============
 Div styles
 ===============*/

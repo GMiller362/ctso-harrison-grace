@@ -157,6 +157,6 @@ footer {
   text-align: center;
 }
 
-nav {
-  position: static;
+header {
+  position: fixed;
 }

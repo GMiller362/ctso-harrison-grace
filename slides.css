@@ -92,6 +92,6 @@
   to {opacity: 1}
 }
 
-div.slideshow-container {
-  padding-top: 6em;
+.slideshow-container {
+  padding-top: 10em;
 }

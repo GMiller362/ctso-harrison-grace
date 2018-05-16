@@ -72,8 +72,16 @@ nav a:hover:not(.active) {
 background-color:#4CAF50;
 }
 
+nav {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 5px;
+}
+
 /*===============
-Achor tag styles
+Anchor tag styles
 ===============*/
 
 div a {
@@ -93,6 +101,7 @@ Body styles
 body {
   font-size: 15px;
   font-family: 'Roboto Mono', monospace;
+  background-color: #F8F9F9;
 }
 
 body p {
@@ -141,12 +150,16 @@ form#thanksForm {
   margin-left: 45em;
 }
 
+header {
+  position: relative; z-index:9999
+}
+
 /*===============
 Div styles
 ===============*/
 
 div.slideshow-container {
-  margin-top: 5em;
+  margin-top: 10em;
 }
 
 div.container {

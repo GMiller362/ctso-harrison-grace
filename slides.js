@@ -1,11 +1,8 @@
-<<<<<<< Updated upstream
 
 var slideIndex = 0;
 showSlides();
-=======
 var slideIndex = 1;
 showSlides(slideIndex);
->>>>>>> Stashed changes
 
 // Next/previous controls
 function plusSlides(n) {
@@ -18,7 +15,6 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-<<<<<<< Updated upstream
     var i;
     var slides = document.getElementsByClassName("mySlides");
     for (i = 0; i < slides.length; i++) {
@@ -28,7 +24,6 @@ function showSlides(n) {
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
-=======
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
@@ -42,7 +37,6 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
->>>>>>> Stashed changes
 }
 
 // var slideIndex = 1;

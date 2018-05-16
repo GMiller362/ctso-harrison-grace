@@ -145,6 +145,10 @@ form#thanksForm {
 Div styles
 ===============*/
 
+div.slideshow-container {
+  margin-top: 5em;
+}
+
 div.container {
   float: left;
 }

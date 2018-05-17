@@ -161,7 +161,7 @@ section#moveDown {
 Header styles
 ===============*/
 
-/* Styles for head  */
+/* Styles for headers within each of the individual pages. */
 
 h1#thanksHead {
   margin-left: 18em;
@@ -180,6 +180,8 @@ header {
 /*===============
 Div styles
 ===============*/
+
+/*Div styles sets the margin and the float of each of the pages. Theres not many different styles to be had here, it is mostly floating and margin setting. */
 
 div.slideshow-container {
   margin-top: 10em;
@@ -229,6 +231,8 @@ div.container {
 /*===============
 Footer styles
 ===============*/
+
+/*Aligning the footer*/
 
 footer {
   text-align: center;

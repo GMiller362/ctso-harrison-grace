@@ -74,7 +74,6 @@ background-color:#4CAF50;
 
 nav {
   background-color: white;
-  border-bottom: .01px solid black;
   position: fixed;
   top: 0;
   width: 100%;
@@ -158,11 +157,6 @@ header {
 /*===============
 Div styles
 ===============*/
-div {
-  word-wrap: break-word;
-  margin-left: 100px;
-  margin-right: 100px;
-}
 
 div.slideshow-container {
   margin-top: 10em;
@@ -195,6 +189,20 @@ div.container {
   margin-top: 10em;
   margin-left: 40em;
 }
+
+#footerSect {
+  float: left;
+  line-height: 5px;
+  border-top: .01px solid black;
+}
+
+#footerSect2 {
+  float: right;
+  line-height: 5px;
+  border-top: .01px solid black;
+}
+
+
 
 /*===============
 Footer styles

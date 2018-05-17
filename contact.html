@@ -1,42 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Atlas: Algae Research Fuel</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <link rel="stylesheet" href="atlas.css">
+  <link rel="stylesheet" href="slides.css">
+  <script src="slides.js"></script>
   <!-- All images used within this project are either created by the project members or taken from a copyright-free resource such as Unsplash or Pixabay. -->
 </head>
-  <body>
-    <header>
-      <nav>
-        <img src="images/logo.png" alt="" id="logo">
-        <ul>
-          <li><a href="forms.html" id="tryme">Newsletter</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="product.html">Product</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="index.html">Home</a></li>
-        </ul>
-      </nav>
-    </header>
-<div class="container">
-  <section>
-    <h1>Contact us!</h1>
-    <p>Got any questions need answering and/or wish to inquire more about our company? </br> Follow one of the links below:</p>
-  </section>
-  <article>
-    <h2>Company number:</h2>
-    <p><a href="tel:602-123-1234"><b>602-123-1234</b></a></p>
-  </article>
-  <article>
-    <h2>Email:</h2>
-    <p><a href="mailto:example@example.com"><b>contactAlgae@atlas.com</b></a></p>
-  </article>
-  <section>
-    <h2>Location:</h2>
-    <p><iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.8074908633!2d-112.05103668449937!3d33.42826295779994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b11e014343c0d%3A0x74a7c453cfed8787!2s2050+S+16th+St%2C+Phoenix%2C+AZ+85034!5e0!3m2!1sen!2sus!4v1526450203505" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
-  </section>
-</div>
-  </body>
+
+<body>
+  <header>
+    <nav>
+      <img src="images/logo.png" alt="" id="logo">
+      <ul>
+        <li><a href="forms.html" id="tryme">Newsletter</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="images/3.png" style="width:100%">
+      <div class="text">A Safer Fuel for the Future.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/6.jpg" style="width:100%">
+      <div class="text">A Safer Fuel for the Future.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/5.png" style="width:100%">
+      <div class="text">A Safer Fuel for the Future.</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <div class="container">
+    <section>
+      <h1>Contact us!</h1>
+      <p>Got any questions need answering and/or wish to inquire more about our company? </br> Follow one of the links below:</p>
+    </section>
+    <article>
+      <h2>Company number:</h2>
+      <p><a href="tel:602-123-1234"><b>602-123-1234</b></a></p>
+    </article>
+    <article>
+      <h2>Email:</h2>
+      <p><a href="mailto:example@example.com"><b>contactAlgae@atlas.com</b></a></p>
+    </article>
+    <section>
+      <h2>Location:</h2>
+      <p><iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.8074908633!2d-112.05103668449937!3d33.42826295779994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b11e014343c0d%3A0x74a7c453cfed8787!2s2050+S+16th+St%2C+Phoenix%2C+AZ+85034!5e0!3m2!1sen!2sus!4v1526450203505"
+          width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+    </section>
+  </div>
+  <footer>
+    <div id="footerSect">
+      <section>
+        <h4>COMPANY</h4>
+        <p>&#9400; 2018 Atlas</p>
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="#">Terms of Use</a></p>
+      </section>
+    </div>
+    <div id="footerSect2">
+      <section>
+        <h4>CONTACT</h4>
+        <p>2050 S 16th St Phoenix, AZ 85034</p>
+        <p><a href="tel:602-123-1234">602-123-1234</a></p>
+        <p><a href="mailto:example@example.com">contactAlgae@atlas.com</a></p>
+        <p><a href="contact.html">Contact Page</a></p>
+      </section>
+    </div>
+  </footer>
+</body>
+
 </html>

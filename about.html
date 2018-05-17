@@ -1,43 +1,99 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Atlas: Algae Research Fuel</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-    <link rel="stylesheet" href="atlas.css">
-  </head>
-  <!-- All images used within this project are either created by the project members or taken from a copyright-free resource such as Unsplash or Pixabay. -->
-  <body>
-    <header>
-      <nav>
-        <img src="images/logo.png" alt="" id="logo">
-        <ul>
-          <li><a href="forms.html" id="tryme">Newsletter</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="product.html">Product</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="index.html">Home</a></li>
-        </ul>
-      </nav>
-    </header>
+
+<head>
+  <meta charset="utf-8">
+  <title>Atlas: Algae Research Fuel</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="atlas.css">
+  <link rel="stylesheet" href="slides.css">
+  <script src="slides.js"></script>
+</head>
+<!-- All images used within this project are either created by the project members or taken from a copyright-free resource such as Unsplash or Pixabay. -->
+
+<body>
+  <header>
+    <nav>
+      <img src="images/logo.png" alt="" id="logo">
+      <ul>
+        <li><a href="forms.html" id="tryme">Newsletter</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Image slideshow, mostly added for Javascript grading. Starts in it's own div container for proper placement. -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="images/8.jpg" style="width:100%">
+      <div class="text">A Safer Fuel for the Future.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/7.jpg" style="width:100%">
+      <div class="text">A Safer Fuel for the Future.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/9.jpg" style="width:100%">
+      <div class="text">A Safer Fuel for the Future.</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
   <!-- <img src="images/seewed.jpg" alt="seaweed image" id="seaweed"> -->
   <div class="container">
     <section class="left">
       <h1>What is Atlas?</h1>
-      <p>Atlas is a fuel research company with one goal in mind-- to create a healthier fuel alternative to reduce greenhouse gases and carbon emissions. We hope to make Algae fuel a new and reliable way to fuel transportation vehicles. To accomplish this, we dedicate our time to creating algae fuel that can be used by said transportation devices, and sell it to non-profit organizations. </p>
+      <p>Atlas is a fuel research company with one goal in mind-- to create a healthier fuel alternative to reduce greenhouse gases and carbon emissions. We hope to make Algae fuel a new and reliable way to fuel transportation vehicles. To accomplish this,
+        we dedicate our time to creating algae fuel that can be used by said transportation devices, and sell it to non-profit organizations. </p>
     </section>
     <section class="right">
       <h1>Our research</h1>
-      <p>The research we do here at Atlas focuses mainly on the amount of carbon emissions per year, affecting pollution rates around the world. Even over the last few years, there has been a 20% increase in those whose healths' are negatively affected by pollution. We believe that we can make a change with our algae fuel, and strive to create a cleaner environment. </p>
+      <p>The research we do here at Atlas focuses mainly on the amount of carbon emissions per year, affecting pollution rates around the world. Even over the last few years, there has been a 20% increase in those whose healths' are negatively affected by
+        pollution. We believe that we can make a change with our algae fuel, and strive to create a cleaner environment. </p>
       <p>To find out more about our product specifically, you can check out the <a href="product.html">products</a> page on our website.</p>
     </section>
     <section class="left">
       <h1>Where does it go?</h1>
-      <p>All of our fuel is sold to Clean Fuel Associates, wherein they redistribute the fuel. We believe this is the best plan for our fuel, as we can't make much fuel monthly due to the amount of workers we have. The Clean Fuel Associates company also holds a similiar goal to our companies goal, to create environmentally friendly emissions. </p>
+      <p>All of our fuel is sold to Clean Fuel Associates, wherein they redistribute the fuel. We believe this is the best plan for our fuel, as we can't make much fuel monthly due to the amount of workers we have. The Clean Fuel Associates company also
+        holds a similiar goal to our companies goal, to create environmentally friendly emissions. </p>
       <p>To find out more about Clean Fuel Associates, click <a href="https://cleanfuelsassociates.com/">here</a> to go to their website.</p>
     </section>
   </div>
   <footer>
+    <div id="footerSect">
+      <section>
+        <h4>COMPANY</h4>
+        <p>&#9400; 2018 Atlas</p>
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="#">Terms of Use</a></p>
+      </section>
+    </div>
+    <div id="footerSect2">
+      <section>
+        <h4>CONTACT</h4>
+        <p>2050 S 16th St Phoenix, AZ 85034</p>
+        <p><a href="tel:602-123-1234">602-123-1234</a></p>
+        <p><a href="mailto:example@example.com">contactAlgae@atlas.com</a></p>
+        <p><a href="contact.html">Contact Page</a></p>
+      </section>
+    </div>
   </footer>
-  </body>
+</body>
+
 </html>

@@ -2,13 +2,18 @@
   font-family: 'Roboto Mono', monospace;
 }
 
+
 /*
 
 */
 
+
 /*===============
 Image styles
 ===============*/
+
+
+/*Styles for images that format them and set the width, mostly applied for the logo*/
 
 img#logo {
   display: block;
@@ -17,28 +22,25 @@ img#logo {
   height: 15%;
 }
 
-img#seaweed {
-  display: block;
-  margin: auto;
-  width: 83.5em;
-  height: 40em;
-}
-
 img#gas {
   display: block;
   width: 60em;
-  height:30em;
+  height: 30em;
 }
+
 
 /*===============
 List styles
 ===============*/
 
+
+/* Listing styles that set the styles to none to hide dots or random other markers, also sets other small things such as font size, color, the display, padding around it and margin. Also sets the spacing from the right side of the page. */
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 li {
@@ -59,9 +61,13 @@ li a#tryme {
   margin-right: 6em;
 }
 
+
 /*===============
 Nav styles
 ===============*/
+
+/* Nav styles for hover over and active nav styles. There is also static nav styles that set the position so that it stays at the top of the page. */
+
 nav a:hover:not(.active) {
   border-bottom: 2px solid #0033cc;
   background-color: #E8E8E8;
@@ -69,7 +75,7 @@ nav a:hover:not(.active) {
 }
 
 .active {
-background-color:#4CAF50;
+  background-color: #4CAF50;
 }
 
 nav {
@@ -80,9 +86,12 @@ nav {
   padding: 0 5px;
 }
 
+
 /*===============
 Anchor tag styles
 ===============*/
+
+/*Originally meant for anchor tags but kind of turned into div styles within the content divs. This is because the other anchor styles were affecting the ones within the pages themselves.  */
 
 div a {
   text-decoration: none;
@@ -94,9 +103,12 @@ div a:hover {
   text-decoration: none;
 }
 
+
 /*===============
 Body styles
 ===============*/
+
+/* Just sets the font, color, and size. Some padding for the paragraphs used. */
 
 body {
   font-size: 15px;
@@ -108,9 +120,12 @@ body p {
   margin: 0 10em 30px 10em;
 }
 
+
 /*===============
 Map styles
 ===============*/
+
+/* Styles for the maps located on the contact page. */
 
 #maps {
   margin: auto;
@@ -118,9 +133,12 @@ Map styles
   height: 400px;
 }
 
+
 /*===============
 Section styles
 ===============*/
+
+/* Section styles that display sections as a block for placement on the page. */
 
 section {
   display: block;
@@ -138,9 +156,12 @@ section#moveDown {
   margin-top: 10em;
 }
 
+
 /*===============
 Header styles
 ===============*/
+
+/* Styles for head  */
 
 h1#thanksHead {
   margin-left: 18em;
@@ -151,8 +172,10 @@ form#thanksForm {
 }
 
 header {
-  position: relative; z-index:9999
+  position: relative;
+  z-index: 9999
 }
+
 
 /*===============
 Div styles
@@ -203,10 +226,10 @@ div.container {
 }
 
 
-
 /*===============
 Footer styles
 ===============*/
+
 footer {
   text-align: center;
 }

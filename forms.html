@@ -75,77 +75,133 @@
     <div id="div1">
       <!-- Different form inputs with labels for different sections. Three different sections for name (first and last), email, and then two additional button inputs for reset and for submitting. -->
       <form action="thanks.html" novalidate="novalidate">
-          <div id="errorText"></div> 
+        <div>
+          <div id="errorText"></div>
           <div id="numErrorText"></div>
           <fieldset id="contactinfo">
-            <label for="addrinput">
-              First Name
-            </label>
-            <input type="text" id="addrinput" name="Address" required="required" 
-            placeholder="Harrison" />
-            <label for="cityinput">
-              Last Name
-            </label>
-            <input type="text" id="cityinput" name="City" required="required" placeholder="Stephens" />
-            <label for="stateinput">
-              Email
-            </label>
-            <input type="text" id="stateinput" name="State" required="required" placeholder="email@example.com" />
+              <p>Newsletter Signup</p>
+            <div>
+              <label for="zip">Zip Code:</label>
+              <br>
+              <input type="number" id="zip" placeholder="xxxxx" required="required">
+            </div>
+            <br>
+            <div>
+              <label for="">Do You Want to Recieve Emails?</label>
+              <input type="radio" id="contactChoice1" name="contact" required="required">
+              <label for="contactChoice1">Yes</label>
+              <input type="radio" id="contactChoice2" name="contact" required="required">
+              <label for="contactChoice2">No</label>
+            </div>
+            <br>
+            <div>
+              <label for="addrinput">First Name</label>
+              <input type="text" id="addrinput" name="First" required="required" placeholder="Harrison" />
+              <label for="cityinput">Last Name</label>
+              <input type="text" id="cityinput" name="Last" required="required" placeholder="Stephens" />
+            </div>
+            <div>
+              <label for="stateinput">Email</label>
+              <input type="text" id="stateinput" name="Email" required="required" placeholder="email@example.com" />
+            </div>
+            <br>
+            <div>
+              <label for="">Select a Security Question:</label>
+              <br>
+              <select id="select" required="required">
+                <option value="0"></option>
+                <option value="1">What is Your Dog's Name?</option>
+                <option value="2">What is Your Mother's Name?</option>
+                <option value="3">Where Were You Born?</option>
+                <option value="4">Favorite Food?</option>
+              </select>
+            </div>
+            <div>
+              <label for="answer"></label>
+              <br>
+              <textarea name="answer" id="answer" cols="40" rows="3" placeholder="Answer the Security Question Here"></textarea>
+            </div>
+            <br>
+            <div>
+              <input type="checkbox" id="terms" required="required">
+              <label for="terms">Accept the <a href="">Terms of Service Agreement</a></label>
+            </div>
           </fieldset>
-          <fieldset id="submitsection">
-            <input type="submit" id="submitBtn" value="Submit" />
-          </fieldset>
-       </form>
+          <div>
+            <fieldset id="submitsection">
+              <input type="submit" id="submitBtn" value="Submit" />
+            </fieldset>
+          </div>
+      </form>
+      </div>
     </div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <!-- End of div page content
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- End of div page content
   ///////////////////////
   Beginning of footer content -->
-  <footer>
-    <div id="footerSect">
-      <section>
-        <h4>COMPANY</h4>
-        <p>&#9400; 2018 Atlas</p>
-        <p>
-          <a href="#">Privacy Policy</a>
-        </p>
-        <p>
-          <a href="#">Terms of Use</a>
-        </p>
-      </section>
-    </div>
-    <div id="footerSect2">
-      <section>
-        <h4>CONTACT</h4>
-        <p>2050 S 16th St Phoenix, AZ 85034</p>
-        <p>
-          <a href="tel:602-123-1234">602-123-1234</a>
-        </p>
-        <p>
-          <a href="mailto:example@example.com">contactAlgae@atlas.com</a>
-        </p>
-        <p>
-          <a href="contact.html">Contact Page</a>
-        </p>
-      </section>
-    </div>
-  </footer>
+    <footer>
+      <div id="footerSect">
+        <section>
+          <h4>COMPANY</h4>
+          <p>&#9400; 2018 Atlas</p>
+          <p>
+            <a href="#">Privacy Policy</a>
+          </p>
+          <p>
+            <a href="#">Terms of Use</a>
+          </p>
+        </section>
+      </div>
+      <div id="footerSect2">
+        <section>
+          <h4>CONTACT</h4>
+          <p>2050 S 16th St Phoenix, AZ 85034</p>
+          <p>
+            <a href="tel:602-123-1234">602-123-1234</a>
+          </p>
+          <p>
+            <a href="mailto:example@example.com">contactAlgae@atlas.com</a>
+          </p>
+          <p>
+            <a href="contact.html">Contact Page</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
 
 </html>
